@@ -10,5 +10,6 @@ This app provides the structure to manage a resume only, this does not provide a
 To work on this project in a scratch org:
 
 1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html)
-2. Run `cci flow run dev_org --org dev` to deploy this project.
-3. Run `cci org browser dev` to open the org in your browser.
+1. Run `cci flow run dev_org --org dev` to deploy this project.
+1. Run `cci org browser dev` to open the org in your browser. (This works with Remote SSH as well).
+1. Run `cci task run retrieve_changes --org dev`
