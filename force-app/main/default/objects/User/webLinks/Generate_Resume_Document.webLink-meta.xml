@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Resume_Document</fullName>
+    <availability>online</availability>
+    <description>Create a document version of your resume</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Generate Resume Document</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&apos;/apex/SDOC__SDCreate1&apos;, null,[id=User.Id, Object=&apos;User&apos;])}</url>
+</WebLink>

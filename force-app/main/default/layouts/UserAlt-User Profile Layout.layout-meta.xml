@@ -80,7 +80,11 @@
         <detailHeading>true</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns/>
+        <layoutColumns>
+            <layoutItems>
+                <customLink>Generate_Resume_Document</customLink>
+            </layoutItems>
+        </layoutColumns>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
@@ -97,6 +101,10 @@
         <relatedList>Experience__c.User__c</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Skillset__c.User__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <relatedList>RelatedGroupList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -108,11 +116,15 @@
     <relatedLists>
         <relatedList>UserFollowingList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>SDOC__SDRelationship__c.User__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1F000007je5G</masterLabel>
+        <masterLabel>00hJ0000007RO0t</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
