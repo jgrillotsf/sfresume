@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.59.1'
+project:
+    name: sfresume
+    package:
+        name: sfresume
+        api_version: '54.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/sfresume/tests
+            options:
+                outputdir: robot/sfresume/results
+
+    robot_testdoc:
+        options:
+            path: robot/sfresume/tests
+            output: robot/sfresume/doc/sfresume_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
