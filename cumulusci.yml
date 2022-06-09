@@ -7,6 +7,10 @@ project:
     git:
         default_branch: 'main'
     source_format: sfdx
+    dependencies:
+        - namespace: SDOC
+          version: 4.511
+          version_id: 04t2K000000gV5ZQAU
 
 tasks:
     robot:

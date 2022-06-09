@@ -1,0 +1,97 @@
+<h1><span style="font-family:arial unicode ms,sans-serif;">{{!User.name}}</span></h1>
+
+<h2><span style="font-family:arial unicode ms,sans-serif;">{{!User.title}}</span></h2>
+
+<address><span style="font-family:arial unicode ms,sans-serif;">{{!User.city}},&nbsp;{{!User.state}}<br />
+m:&nbsp;{{!User.mobilephone ###-###-####}}<br />
+e:&nbsp;{{!User.email}}</span></address>
+
+<h2><span style="font-family:arial unicode ms,sans-serif;">About me:&nbsp;</span></h2>
+<span style="font-family:arial unicode ms,sans-serif;">{{!User.aboutme}}</span>
+
+<h2><span style="font-family:arial unicode ms,sans-serif;">Skills:</span></h2>
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:119********************--> ### RELATED LIST No: 119 ###
+<style type="text/css">table.table119 {border:solid black 0px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,sans-serif; font-size:10pt; width:100% }
+.table119col0{border-top:solid black 0px;border-bottom:solid black 0px;border-left:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table119col1{border-top:solid black 0px;border-bottom:solid black 0px;border-right:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+</style>
+<table class="table119">
+	<tbody style="page-break-inside: avoid !important; page-break-before: auto !important;"><!--{{!
+<lineitems>
+<class>table119</class>
+<listname>skillsets__r</listname>
+<column postfix=": " mergenext="true">type__c</column>
+<column>skills__c</column>
+<orderby>type__c desc</orderby>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:119********************-->
+
+<h2><span style="font-family:arial unicode ms,sans-serif;">Achievements:</span></h2>
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:506********************--> ### RELATED LIST No: 506 ###
+<style type="text/css">table.table506 {border:solid black 0px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,sans-serif; font-size:10pt; width:100% } .table506col0{border:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table506col1{border:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+</style>
+<table class="table506">
+	<tbody style="page-break-inside: avoid !important; page-break-before: auto !important;"><!--{{! <lineitems> <class>table506</class> <listname>achievements__r</listname> <column>name</column> <orderby>Sort_Order__c</orderby> </lineitems> }}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:506********************-->
+
+<h2><span style="font-family:arial unicode ms,sans-serif;">Experience</span></h2>
+
+<h3><span style="font-family:arial unicode ms,sans-serif;">Professional</span></h3>
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:1********************--> ### RELATED LIST No: 1 ###
+<style type="text/css">table.table1 {border:solid black 0px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,sans-serif; font-size:10pt; width:100% }
+.table1col0{text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table1col1{text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table1col2{text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table1col3{text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table1col4{text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+</style>
+<table class="table1">
+	<tbody style="page-break-inside: avoid !important; page-break-before: auto !important;"><!--{{!
+<lineitems>
+<class>table1</class>
+<listname>Experience__c</listname>
+<column postfix=" - " mergenext="true">Account__r.name</column>
+<column>title__c</column>
+<column postfix=" - " format-date="MM/yyyy" mergenext="true">start_date__c</column>
+<column nullpostfix="Present" format-date="MM/yyyy" >end_date__c</column>
+<column newrow="true" type="rtf">summary__c</column>
+<where>RecordType.Name='Professional'</where>
+<orderby>Start_Date__c desc</orderby>
+</lineitemsL>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:1********************-->
+
+<h3><span style="font-family:arial unicode ms,sans-serif;">Education</span></h3>
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:753********************--><br />
+### RELATED LIST No: 753 ###
+<style type="text/css">table.table753 {border:solid black 0px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,sans-serif; font-size:10pt; width:100% }
+.table753col0{border:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table753col1{border:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table753col2{border:solid black 0px;text-align:left;font-weight:normal;font-size:8pt;font-family:Arial Unicode MS,sans-serif;}
+.table753col3{border:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+</style>
+<table class="table753">
+	<tbody style="page-break-inside: avoid !important; page-break-before: auto !important;"><!--{{!
+<lineitems>
+<class>table753</class>
+<listname>experiences__r</listname>
+<column>degree_earned__c</column>
+<column format-date="MM/yyyy" >end_date__c</column>
+<column newrow="true">Account__r.name</column>
+<column newrow="true" type="rtf" >summary__c</column>
+<where>RecordType.Name='Educational'</where>
+<orderby>End_Date__c desc</orderby>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<br />
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:753********************-->
