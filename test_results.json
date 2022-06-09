@@ -1,0 +1,590 @@
+[
+    {
+        "Children": null,
+        "ClassName": "ChangePasswordControllerTest",
+        "Method": "testChangePasswordController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 74
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "CommunitiesLandingControllerTest",
+        "Method": "testCommunitiesLandingController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 60
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "CommunitiesLoginControllerTest",
+        "Method": "testCommunitiesLoginController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 59
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "CommunitiesSelfRegConfirmControllerTest",
+        "Method": "testCommunitiesSelfRegConfirmController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 168
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "CommunitiesSelfRegControllerTest",
+        "Method": "testCommunitiesSelfRegController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 62
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "CommunitiesSelfRegControllerTest",
+        "Method": "testInvalidPassword",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 10
+        },
+        "TestTimestamp": "2022-06-09T17:07:17.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "CommunitiesSelfRegControllerTest",
+        "Method": "testNullPassword",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2022-06-09T17:07:17.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "DeprovisionSandboxMFATest",
+        "Method": "testDelete",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 1511,
+            "TESTING_LIMITS: Number of SOQL queries": {
+                "used": 0,
+                "allowed": 100
+            },
+            "TESTING_LIMITS: Number of Email Invocations": {
+                "used": 0,
+                "allowed": 10
+            },
+            "TESTING_LIMITS: Number of future calls": {
+                "used": 1,
+                "allowed": 50
+            },
+            "TESTING_LIMITS: Number of DML rows": {
+                "used": 0,
+                "allowed": 10000
+            },
+            "TESTING_LIMITS: Maximum CPU time": {
+                "used": 30,
+                "allowed": 10000
+            },
+            "TESTING_LIMITS: Number of query rows": {
+                "used": 0,
+                "allowed": 50000
+            },
+            "TESTING_LIMITS: Number of DML statements": {
+                "used": 0,
+                "allowed": 150
+            },
+            "TESTING_LIMITS: Number of Mobile Apex push calls": {
+                "used": 0,
+                "allowed": 10
+            },
+            "TESTING_LIMITS: Number of SOSL queries": {
+                "used": 0,
+                "allowed": 20
+            },
+            "TESTING_LIMITS: Number of callouts": {
+                "used": 0,
+                "allowed": 100
+            }
+        },
+        "TestTimestamp": "2022-06-09T17:07:01.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "ForgotPasswordControllerTest",
+        "Method": "testForgotPasswordController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 66
+        },
+        "TestTimestamp": "2022-06-09T17:07:01.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningForgotPasswordControllerTest",
+        "Method": "testLightningForgotPasswordControllerInstantiation",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 43
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningForgotPasswordControllerTest",
+        "Method": "testLightningForgotPasswordControllerInvalidUserName",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2022-06-09T17:07:17.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningForgotPasswordControllerTest",
+        "Method": "testLightningForgotPasswordControllerWithNullCheckEmailRef",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 12
+        },
+        "TestTimestamp": "2022-06-09T17:07:17.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningLoginFormControllerTest",
+        "Method": "LightningLoginFormControllerInstantiation",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 79
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningLoginFormControllerTest",
+        "Method": "testAuthConfig",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 22
+        },
+        "TestTimestamp": "2022-06-09T17:07:20.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningLoginFormControllerTest",
+        "Method": "testGetSelfRegistrationURL",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 12
+        },
+        "TestTimestamp": "2022-06-09T17:07:20.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningLoginFormControllerTest",
+        "Method": "testIsSelfRegistrationEnabled",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 15
+        },
+        "TestTimestamp": "2022-06-09T17:07:20.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningLoginFormControllerTest",
+        "Method": "testIsUsernamePasswordEnabled",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 31
+        },
+        "TestTimestamp": "2022-06-09T17:07:20.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningLoginFormControllerTest",
+        "Method": "testLoginWithInvalidCredentials",
+        "Message": "System.AssertException: Assertion Failed: Expected: Argument 1 cannot be null, Actual: null",
+        "Outcome": "Fail",
+        "StackTrace": "Class.LightningLoginFormControllerTest.testLoginWithInvalidCredentials: line 6, column 1",
+        "Stats": {
+            "duration": 8
+        },
+        "TestTimestamp": "2022-06-09T17:07:21.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "LightningSelfRegisterControllerInstantiation",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 74
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testGetExtraFieldsInSelfRegistration",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 20
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testGetNonEmptyExtraFields",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testGetNullExtraFields",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testIsValidPassword",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 9
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testSelfRegisterWithCreatedAccount",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 124
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testSelfRegisterWithProperCredentials",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 12
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "LightningSelfRegisterControllerTest",
+        "Method": "testSelfRegistration",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 13
+        },
+        "TestTimestamp": "2022-06-09T17:07:20.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "MassDeleteExtensionTest",
+        "Method": "testDeleteRecords",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 44
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "MassDeleteExtensionTest",
+        "Method": "testSelectedSize",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 15
+        },
+        "TestTimestamp": "2022-06-09T17:07:17.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "MicrobatchSelfRegControllerTest",
+        "Method": "testMicrobatchSelfRegController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 104
+        },
+        "TestTimestamp": "2022-06-09T17:07:01.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "MyProfilePageControllerTest",
+        "Method": "testSave",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 986
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "PerfectionStandardControllerTest",
+        "Method": "testPerfection",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 3194
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "SiteLoginControllerTest",
+        "Method": "testSiteLoginController",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 58
+        },
+        "TestTimestamp": "2022-06-09T17:07:02.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "SiteRegisterControllerTest",
+        "Method": "testRegistration",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 68
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TemperatureConverterTest",
+        "Method": "testBoilingPoint",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 57
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TemperatureConverterTest",
+        "Method": "testFreezingPoint",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 9
+        },
+        "TestTimestamp": "2022-06-09T17:07:18.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TemperatureConverterTest",
+        "Method": "testNegativeTemp",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TemperatureConverterTest",
+        "Method": "testWarmTemp",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2022-06-09T17:07:19.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "WorkTaskTriggerHandlerTest",
+        "Method": "testTaskDoingUpdate",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 820,
+            "TESTING_LIMITS: Number of SOQL queries": {
+                "used": 0,
+                "allowed": 100
+            },
+            "TESTING_LIMITS: Number of Email Invocations": {
+                "used": 0,
+                "allowed": 10
+            },
+            "TESTING_LIMITS: Number of future calls": {
+                "used": 0,
+                "allowed": 50
+            },
+            "TESTING_LIMITS: Number of DML rows": {
+                "used": 1,
+                "allowed": 10000
+            },
+            "TESTING_LIMITS: Maximum CPU time": {
+                "used": 50,
+                "allowed": 10000
+            },
+            "TESTING_LIMITS: Number of query rows": {
+                "used": 0,
+                "allowed": 50000
+            },
+            "TESTING_LIMITS: Number of DML statements": {
+                "used": 1,
+                "allowed": 150
+            },
+            "TESTING_LIMITS: Number of Mobile Apex push calls": {
+                "used": 0,
+                "allowed": 10
+            },
+            "TESTING_LIMITS: Number of SOSL queries": {
+                "used": 0,
+                "allowed": 20
+            },
+            "TESTING_LIMITS: Number of callouts": {
+                "used": 0,
+                "allowed": 100
+            }
+        },
+        "TestTimestamp": "2022-06-09T17:07:00.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "WorkTaskTriggerHandlerTest",
+        "Method": "testTaskDoneUpdate",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 248,
+            "TESTING_LIMITS: Number of SOQL queries": {
+                "used": 0,
+                "allowed": 100
+            },
+            "TESTING_LIMITS: Number of Email Invocations": {
+                "used": 0,
+                "allowed": 10
+            },
+            "TESTING_LIMITS: Number of future calls": {
+                "used": 0,
+                "allowed": 50
+            },
+            "TESTING_LIMITS: Number of DML rows": {
+                "used": 1,
+                "allowed": 10000
+            },
+            "TESTING_LIMITS: Maximum CPU time": {
+                "used": 35,
+                "allowed": 10000
+            },
+            "TESTING_LIMITS: Number of query rows": {
+                "used": 0,
+                "allowed": 50000
+            },
+            "TESTING_LIMITS: Number of DML statements": {
+                "used": 1,
+                "allowed": 150
+            },
+            "TESTING_LIMITS: Number of Mobile Apex push calls": {
+                "used": 0,
+                "allowed": 10
+            },
+            "TESTING_LIMITS: Number of SOSL queries": {
+                "used": 0,
+                "allowed": 20
+            },
+            "TESTING_LIMITS: Number of callouts": {
+                "used": 0,
+                "allowed": 100
+            }
+        },
+        "TestTimestamp": "2022-06-09T17:07:17.000+0000"
+    }
+]

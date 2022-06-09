@@ -1,0 +1,43 @@
+<testsuite tests="39">
+  <testcase classname="ChangePasswordControllerTest" name="testChangePasswordController" time="74" />
+  <testcase classname="CommunitiesLandingControllerTest" name="testCommunitiesLandingController" time="60" />
+  <testcase classname="CommunitiesLoginControllerTest" name="testCommunitiesLoginController" time="59" />
+  <testcase classname="CommunitiesSelfRegConfirmControllerTest" name="testCommunitiesSelfRegConfirmController" time="168" />
+  <testcase classname="CommunitiesSelfRegControllerTest" name="testCommunitiesSelfRegController" time="62" />
+  <testcase classname="CommunitiesSelfRegControllerTest" name="testInvalidPassword" time="10" />
+  <testcase classname="CommunitiesSelfRegControllerTest" name="testNullPassword" time="11" />
+  <testcase classname="DeprovisionSandboxMFATest" name="testDelete" time="1511" />
+  <testcase classname="ForgotPasswordControllerTest" name="testForgotPasswordController" time="66" />
+  <testcase classname="LightningForgotPasswordControllerTest" name="testLightningForgotPasswordControllerInstantiation" time="43" />
+  <testcase classname="LightningForgotPasswordControllerTest" name="testLightningForgotPasswordControllerInvalidUserName" time="11" />
+  <testcase classname="LightningForgotPasswordControllerTest" name="testLightningForgotPasswordControllerWithNullCheckEmailRef" time="12" />
+  <testcase classname="LightningLoginFormControllerTest" name="LightningLoginFormControllerInstantiation" time="79" />
+  <testcase classname="LightningLoginFormControllerTest" name="testAuthConfig" time="22" />
+  <testcase classname="LightningLoginFormControllerTest" name="testGetSelfRegistrationURL" time="12" />
+  <testcase classname="LightningLoginFormControllerTest" name="testIsSelfRegistrationEnabled" time="15" />
+  <testcase classname="LightningLoginFormControllerTest" name="testIsUsernamePasswordEnabled" time="31" />
+  <testcase classname="LightningLoginFormControllerTest" name="testLoginWithInvalidCredentials" time="8">
+    <failure type="failed" message="System.AssertException: Assertion Failed: Expected: Argument 1 cannot be null, Actual: null"><![CDATA[Class.LightningLoginFormControllerTest.testLoginWithInvalidCredentials: line 6, column 1]]></failure>
+  </testcase>
+  <testcase classname="LightningSelfRegisterControllerTest" name="LightningSelfRegisterControllerInstantiation" time="74" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testGetExtraFieldsInSelfRegistration" time="20" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testGetNonEmptyExtraFields" time="11" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testGetNullExtraFields" time="11" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testIsValidPassword" time="9" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testSelfRegisterWithCreatedAccount" time="124" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testSelfRegisterWithProperCredentials" time="12" />
+  <testcase classname="LightningSelfRegisterControllerTest" name="testSelfRegistration" time="13" />
+  <testcase classname="MassDeleteExtensionTest" name="testDeleteRecords" time="44" />
+  <testcase classname="MassDeleteExtensionTest" name="testSelectedSize" time="15" />
+  <testcase classname="MicrobatchSelfRegControllerTest" name="testMicrobatchSelfRegController" time="104" />
+  <testcase classname="MyProfilePageControllerTest" name="testSave" time="986" />
+  <testcase classname="PerfectionStandardControllerTest" name="testPerfection" time="3194" />
+  <testcase classname="SiteLoginControllerTest" name="testSiteLoginController" time="58" />
+  <testcase classname="SiteRegisterControllerTest" name="testRegistration" time="68" />
+  <testcase classname="TemperatureConverterTest" name="testBoilingPoint" time="57" />
+  <testcase classname="TemperatureConverterTest" name="testFreezingPoint" time="9" />
+  <testcase classname="TemperatureConverterTest" name="testNegativeTemp" time="7" />
+  <testcase classname="TemperatureConverterTest" name="testWarmTemp" time="7" />
+  <testcase classname="WorkTaskTriggerHandlerTest" name="testTaskDoingUpdate" time="820" />
+  <testcase classname="WorkTaskTriggerHandlerTest" name="testTaskDoneUpdate" time="248" />
+</testsuite>

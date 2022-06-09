@@ -12,7 +12,7 @@ e:&nbsp;{{!User.email}}</span></address>
 <h2><span style="font-family:arial unicode ms,sans-serif;">Skills:</span></h2>
 <!-- ******************** START RELATED LIST SECTION UNIQUEID:119********************--> ### RELATED LIST No: 119 ###
 <style type="text/css">table.table119 {border:solid black 0px; border-collapse:collapse; border-spacing:0px;font-family:Arial Unicode MS,sans-serif; font-size:10pt; width:100% }
-.table119col0{border-top:solid black 0px;border-bottom:solid black 0px;border-left:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
+.table119col0{border-top:solid black 0px;border-bottom:solid black 0px;border-left:solid black 0px;text-align:left;font-weight:bold;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
 .table119col1{border-top:solid black 0px;border-bottom:solid black 0px;border-right:solid black 0px;text-align:left;font-weight:normal;font-size:10pt;font-family:Arial Unicode MS,sans-serif;}
 </style>
 <table class="table119">
@@ -53,7 +53,7 @@ e:&nbsp;{{!User.email}}</span></address>
 </style>
 <table class="table1">
 	<tbody style="page-break-inside: avoid !important; page-break-before: auto !important;"><!--{{!
-<lineitems>
+<LineItemsSOQL>
 <class>table1</class>
 <listname>Experience__c</listname>
 <column postfix=" - " mergenext="true">Account__r.name</column>
@@ -61,9 +61,10 @@ e:&nbsp;{{!User.email}}</span></address>
 <column postfix=" - " format-date="MM/yyyy" mergenext="true">start_date__c</column>
 <column nullpostfix="Present" format-date="MM/yyyy" >end_date__c</column>
 <column newrow="true" type="rtf">summary__c</column>
-<where>RecordType.Name='Professional'</where>
+<where>User__c='{{!User.id}}' and RecordType.Name = 'Professional'</where>
 <orderby>Start_Date__c desc</orderby>
-</lineitemsL>
+</LineItemsSOQL>
+}}-->
 }}-->
 	</tbody>
 </table>
