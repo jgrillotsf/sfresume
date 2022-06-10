@@ -1,4 +1,4 @@
-# Run book for a New Ord
+# Run book for a New Org
 This runbook outlines all the manual steps for setting up a new org.
 
 ## Pre-Deployment
@@ -11,6 +11,8 @@ None
     1. Experience:
         1. Educational : Educational Experience Layout
         1. Professional: Professional Experience Layout
+1. Enable Feed Tracking - go to Setup, search for Feed Tracking
+    1. Select the User Object. Enable feed tracking for related objects and save.
 ### S-DOCS Setup
 1. In Setup, go to Object Manager and open the SDoc Template object
 1. Click on Fields & Relationships
@@ -37,3 +39,14 @@ None
     1. Uncheck "Use first page header for all pages"
     1. Insert Full Name field
 1. Click ```Save and Close```
+
+### Test Environment Data
+These instructions created test data to validate the funcionality of the App
+1. Open the Developer Console and open the Execute Anonymous window
+1. Copy the text from the /scripts/apex/updateUser.apex file
+1. Paste the code and execute.
+1. Navigate to your user profile page and validate the record is updated.
+1. Open the Developer Console and open the Execute Anonymous window
+1. Copy the text from the /scripts/apex/createResumeData.apex file
+1. Paste the code and execute.
+1. Refresh your user profile page and validate the record is updated.
