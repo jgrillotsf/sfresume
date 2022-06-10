@@ -2,6 +2,13 @@
 
 Build your resume on the force.com platform with Salesforce DX and CumulusCI. This app pre-installs SDOCS for the Resume (template is in the scripts/SDOCS folder).  
 
+## Branching Strategy
+The following branches are used in this Repo:
+* main - Production Branch
+* release/ - Release Branch
+* beta/ - Beta Release Branch
+* feature/ - Feature branch
+
 ## Development
 
 To work on this project in a scratch org:
