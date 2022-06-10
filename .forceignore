@@ -13,3 +13,7 @@ package.xml
 
 # Profiles
 **/profiles/**
+
+# SDOC Metadata
+**/SDOC__Base_Object__c*
+**/SDOC__SDTemplate__c-SDOC__SDoc Template Layout*
