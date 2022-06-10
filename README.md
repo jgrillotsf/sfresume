@@ -1,9 +1,6 @@
 # Salesforce DX Project: sfresume
 
-Build your resume on the force.com platform with Salesforce DX and CumulusCI.cd 
-
-### NOTE
-This app provides the structure to manage a resume only, this does not provide a exportable resume. You can build functionality using SDOCS or QUIP. 
+Build your resume on the force.com platform with Salesforce DX and CumulusCI. This app pre-installs SDOCS for the Resume (template is in the scripts/SDOCS folder).  
 
 ## Development
 
@@ -15,3 +12,6 @@ To work on this project in a scratch org:
 1. OPEN an org: `cci org browser dev` (This works with Remote SSH as well)
 1. PULL CHANGES from org `cci task run retrieve_changes --org dev` 
 1. DELETE a Scratch Org: `cci org scratch_delete ORGNAME`
+
+## Deployment
+Refer to the Runbook under the scripts folder for Installing and configuring the Application.
