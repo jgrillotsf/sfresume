@@ -1,0 +1,68 @@
+<apex:page standardController="User" extensions="ResumePreviewControllerExtension" lightningStylesheets="true">
+    <apex:pageBlock >
+        <div>
+            <center>
+                <H1>{!User.Name}</H1>
+                {!User.City}, {!User.State}
+            </center>
+        </div>
+        <apex:pageBlockSection columns="2" showHeader="true" >
+            <apex:outputField value="{!User.MobilePhone}"  />
+            <apex:outputText value="{!User.Email}"/>            
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.Trailhead_Profile__c.Label}" />
+                <apex:outputLink value="{!User.Trailhead_Profile__c}" target="_blank">
+                    {!User.Trailhead_Profile__c}
+                </apex:outputLink>
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$ObjectType.User.Fields.LinkedIn_Profile__c.Label}" />
+                <apex:outputLink value="{!User.LinkedIn_Profile__c}" target="_blank">
+                    {!User.LinkedIn_Profile__c}
+                </apex:outputLink>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+    <apex:pageBlock title="Professional Summary" >
+        <apex:outputField value="{!User.AboutMe}"/>
+    </apex:pageBlock>
+     <apex:pageBlock title="Certifications" >
+        <apex:pageBlockSection columns="1" >
+            <apex:dataList value="{!certifications}" var="cert" type="disc" >
+                <apex:outputText value="{!cert.Name}" />
+            </apex:dataList>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+     <apex:pageBlock title="Skills" >
+        <apex:pageBlockSection columns="1" >
+            <apex:dataList value="{!skills}" var="skill" type="disc" >
+                <apex:outputText value="{!skill.Type__c}" />: &nbsp; 
+                <apex:outputText value="{!skill.Skills__c}" />
+            </apex:dataList>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <apex:pageBlock title="Professional Experience">
+        <apex:pageBlockTable value="{!jobs}" var="job" >
+            <apex:column value="{!job.Account__r.Name}" headerValue="Employer" />
+            <apex:column value="{!job.Title__c}"/>
+            <apex:column value="{!job.Start_Date__c}-{!job.End_Date__c}" headerValue="Tenure"/>
+            <apex:column breakBefore="true" colspan="3">
+                <apex:outputField value="{!job.Summary__c}"/>
+            </apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    <apex:pageBlock title="Educational Experience">
+        <apex:pageBlockTable value="{!edus}" var="edu" >
+            <apex:column value="{!edu.Account__r.Name}" headerValue="Institution" />
+            <apex:column value="{!edu.Degree_Earned__c}" headerValue="Achievement"/>
+            <apex:column value="{!edu.End_Date__c}" headerValue="Completion Date"/>
+            <apex:column breakBefore="true" colspan="3">
+                <apex:outputField value="{!edu.Summary__c}"/>
+            </apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    
+    <footer>
+        <center><p>Resume built using the force.com platform</p></center>
+    </footer>
+</apex:page>
